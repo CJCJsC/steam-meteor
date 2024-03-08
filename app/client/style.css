@@ -1,12 +1,18 @@
 body {
-  background: url("/images/murphys-new-background.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  --bs-dark: #1B4F24;
-  --bs-dark-rgb: #1B4F24;
+  background-color: #223d56;
+}
+
+.steam-text {
+  color: white;
+}
+
+.container-fluid.container-padding {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #topMenu {
-  background-color: #1B4F24;
+  background-color: #223d56;
   color: white;
 }
 
@@ -16,7 +22,7 @@ body {
 }
 
 #bottomMenu {
-  background-color: #1B4F24;
+  background-color: #223d56;
   color: white;
 }
 

@@ -1,22 +1,20 @@
 import React from 'react';
-import { Container, Image, Navbar, Nav } from 'react-bootstrap';
-import { Instagram, Facebook, Twitter } from 'react-bootstrap-icons';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const TopMenu = () => (
   <Container id="topMenu" fluid className="py-3">
-    <Navbar bg="dark" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><Image src="/images/murphyslogowhite.png" width={200}/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Brand href="#">
+          <h1><i className="bi bi-steam steam-text"></i>STEAM</h1>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav>
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">About Us</Nav.Link>
-            <Nav.Link href="#">St. Patrick&apos;s Day</Nav.Link>
-            <Nav.Link href="#">To Go Ordering</Nav.Link>
-            <Nav.Link href="#"><Instagram/></Nav.Link>
-            <Nav.Link href="#"><Facebook/></Nav.Link>
-            <Nav.Link href="#"><Twitter/></Nav.Link>
+            <Nav.Link href="#">STORE</Nav.Link>
+            <Nav.Link href="#">COMMUNITY</Nav.Link>
+            <Nav.Link href="#">ABOUT</Nav.Link>
+            <Nav.Link href="#">SUPPORT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
