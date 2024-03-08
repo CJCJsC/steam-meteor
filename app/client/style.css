@@ -2,6 +2,10 @@ body {
   background-color: #223d56;
 }
 
+.wrapper {
+  background-color: #223d56;
+}
+
 .steam-text {
   color: white;
 }
@@ -24,6 +28,13 @@ body {
 #bottomMenu {
   background-color: #223d56;
   color: white;
+}
+
+.green-rectangle {
+  display: inline-block;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 a.nav-link{

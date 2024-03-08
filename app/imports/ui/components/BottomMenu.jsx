@@ -2,26 +2,17 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 
 const BottomMenu = () => (
-  <footer id="bottomMenu" className="mt-auto py-3">
-    <Container>
-      <Row>
-        <Col>
-          Lunch
-          <hr/>
-          Monday - Friday: 11:00am - 2:30pm<br/>
-          Saturday - Sunday: Not open
+  <footer id="bottomMenu" className="mt-auto py-3 bg-dark text-white">
+    <Container fluid>
+      <Row className="justify-content-center pt-3">
+        <hr />
+        <Col className="text-center">
+          <p>© 2024 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</p>
+          <p>VAT included in all prices where applicable.   Privacy Policy   |   Legal   |   Steam Subscriber Agreement   |   Refunds   |   Cookies</p>
         </Col>
-        <Col>
-          Bar
-          <hr/>
-          Monday - Friday: From 11:00am to closing<br/>
-          Saturday - Sunday: Not open
-        </Col>
-        <Col>
-          Dinner
-          <hr/>
-          Monday - Friday: 5:00pm - 9:00pm<br/>
-          Saturday - Sunday: Not open
+        <hr />
+        <Col className="text-center">
+          About Valve | Jobs | Steamworks | Steam Distribution | Support | Recycling | Gift Cards | <i className="bi bi-facebook"></i>Steam | <i className="bi bi-twitter"></i>@steam
         </Col>
       </Row>
     </Container>
